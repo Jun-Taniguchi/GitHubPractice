@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>管理者トップページ</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<table>
+		<tr>
+			<th>商品一覧</th><th>検索</th>
+		</tr>
+	</table>
+	
+	<div style="">
+		<form action="pList" method="get">
+			<input type="submit" value="商品一覧">
+		</form>
+	</div>
+
+	<div>	
+		<form action="pSearch" method="get">
+			<input type="submit" value="検索">
+		</form>
+	</div>
+	
+</body>
+</html>

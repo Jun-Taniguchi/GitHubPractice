@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GHpracticeApplication {
+public class EcsiteApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GHpracticeApplication.class, args);
+		SpringApplication.run(EcsiteApplication.class, args);
 	}
 
 }
