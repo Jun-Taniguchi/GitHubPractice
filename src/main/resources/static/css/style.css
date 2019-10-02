@@ -13,6 +13,9 @@ table{
 #atList{
 	width:500px
 }
+.atDeco{
+	text-decoration:none;
+}
 .info{
 	border-collapse:collapse;
 }
@@ -32,5 +35,5 @@ table{
 #atSearchGo{
 	margin-top:40px;
 	width:150px;
-	height:40px;	
+	height:40px;
 }
