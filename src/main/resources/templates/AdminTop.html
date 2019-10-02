@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
+ 	<link th:href="@{/css/style.css}" rel="stylesheet">
 	<meta charset="UTF-8">
 	<title>管理者トップページ</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-	<table>
-		<tr>
-			<th>商品一覧</th><th>検索</th>
-		</tr>
-	</table>
-	
-	<div style="">
-		<form action="pList" method="get">
-			<input type="submit" value="商品一覧">
-		</form>
+	<div class="kotei">
+		<table class="info">
+			<tr>
+				<th id="atList"><a href="AdminList.html" style="text-decoration:none;">商品一覧</a></th>
+				<th id="atSearch"><a href="AdminSearch.html" style="text-decoration:none;">検索</a></th>
+			</tr>
+		</table>
 	</div>
-
-	<div>	
-		<form action="pSearch" method="get">
-			<input type="submit" value="検索">
+	
+	<div id="submitCenter">
+		<form action="/aList" method="get">
+			<input type="submit" value="商品一覧" id="atListGo">
+		</form>
+	
+		<form action="/aSearch" method="get">
+			<input type="submit" value="検索" id="atSearchGo">
 		</form>
 	</div>
 	

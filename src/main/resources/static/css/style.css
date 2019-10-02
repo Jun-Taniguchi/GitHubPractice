@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+html *{
+	box-sixing:border box;
+}
+.kotei{
+	margin:0 auto;
+	max-width:1000px;
+	text-align:center;
+	margin-bottom:30px;
+}
+table{
+	margin:0 auto;
+	width:1000px;
+	height:130px;
+}
+#atList{
+	width:500px
+}
+.info{
+	border-collapse:collapse;
+}
+.info th{
+	border:2px solid ;
+	text-align:center;
+}
+#submitCenter{
+	text-align:center;
+	margin:0 auto;
+}
+#atListGo{
+	margin-top:30px;
+	width:150px;
+	height:40px;
+}
+#atSearchGo{
+	margin-top:40px;
+	width:150px;
+	height:40px;	
+}
