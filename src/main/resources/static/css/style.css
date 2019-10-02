@@ -1,10 +1,8 @@
 @charset "UTF-8";
 
-
 html *{
 	box-sixing:border box;
 }
-
 table{
 	margin:0 auto;
 	width:1000px;
