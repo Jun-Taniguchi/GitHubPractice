@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+ 	<link th:href="@{/css/style.css}" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>管理者追加ページ</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<div id="addCenter">
+		<form action="/aAdd" method="post">
+			<p>商品名</p>
+			<input type="text" name="product_name">
+			<p>カテゴリー</p>
+			<select name="category_id">
+				<option></option>
+			</select>
+			<p>価格</p>
+			<input type="text" name="price">
+			<p>サイズ</p>
+			<input type="text" name="size">
+			<p>メーカー</p>
+			<input type="text" name="manufacture">
+			<p>色</p>
+			<input type="text" name="color">
+			<p>画像</p>
+			<input type="file" name="product_img">
+			<p>在庫</p>
+			<input type="text" name="stock">
+			<p>商品詳細</p>
+			<textarea name="productDetails"></textarea>
+			<p><input type="submit" value="追加"></p>
+		</form>
+	</div>
+	
+</body>
+</html>

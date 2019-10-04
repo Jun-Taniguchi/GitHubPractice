@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+//管理者トップページ--------------------------------
 html *{
 	box-sixing:border box;
 }
@@ -35,3 +36,20 @@ table{
 	width:150px;
 	height:40px;
 }
+
+//管理者追加ページ---------------------------------
+#addCenter{
+	text-align:center;
+	margin:0 auto;
+}
+.pTtile{
+	padding-bottom:0px;
+}
+
+
+
+
+
+
+
+
